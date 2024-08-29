@@ -114,11 +114,26 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:MODULE_ANIMATION_EXISTS
 -define:MODULE_PHYSICS_EXISTS
 -define:MODULE_PHYSICS_2D_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/3rd/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll"
+-r:"Assets/3rd/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
+-r:"Assets/3rd/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll"
+-r:"Assets/3rd/Behavior Designer/Editor/BehaviorDesigner.Editor.dll"
+-r:"Assets/3rd/Behavior Designer/Runtime/BehaviorDesigner.Runtime.dll"
+-r:"Assets/3rd/Obfuscator/Editor/Mono.Cecil/Beebyte.Cecil.dll"
+-r:"Assets/3rd/Obfuscator/Editor/Mono.Cecil/Beebyte.Cecil.Mdb.dll"
+-r:"Assets/3rd/Obfuscator/Editor/Mono.Cecil/Beebyte.Cecil.Pdb.dll"
+-r:"Assets/3rd/Obfuscator/Editor/Mono.Cecil/Beebyte.Cecil.Rocks.dll"
+-r:"Assets/3rd/Obfuscator/Editor/Plugins/obfuscator.dll"
+-r:"Assets/3rd/QFSW/Quantum Console/Source/Extras/exec/CSharpCompiler/Plugins/mcs.dll"
+-r:"Assets/3rd/Rewired/Internal/Libraries/Editor/Rewired_Editor.dll"
+-r:"Assets/3rd/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll"
+-r:"Assets/3rd/Rewired/Internal/Libraries/Runtime/Rewired_Windows.dll"
 -r:"I:/TheHighSix/workforPractice/Work/PracticeForWork/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"I:/TheHighSix/workforPractice/Work/PracticeForWork/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"I:/TheHighSix/workforPractice/Work/PracticeForWork/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
